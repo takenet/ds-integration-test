@@ -1,27 +1,57 @@
-# BlipDsTestAngular
+# DS Integration Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.6.
+## Descrição do Projeto
 
-## Development server
+O projeto **ds-integration-test** é uma iniciativa que visa oferecer teste de integração e unitarios de todos os componentes para facilitar na implementação dos teste nos projeto que utilizam o UAI Design System.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Objetivo
 
-## Code scaffolding
+O objetivo principal deste projeto é fornecer soluções prontas e consistentes para a aplicação dos teste de integração e unitários dos componentes do UAI Design System.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Recursos Principais
 
-## Build
+- **Uai Design System**: Utilizamos o Uai Design System em sua totalidade para garantir consistência visual e experiência do usuário.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Teste de Integração (Cypress)**: Exemplos de teste de integração com os componente do UAI Design System.
 
-## Running unit tests
+- **Teste Unitário (Jest)**: Em desenvolvimento.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Como Usar
 
-## Running end-to-end tests
+1. Clone este repositório:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/takenet/ds-integration-test
+```
 
-## Further help
+2. Navegue até o diretório do projeto:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+cd ds-integration-test
+```
+4. Intalar o projeto
+
+```bash
+npm install
+```
+
+4. Rodar o projeto no servidor local:
+
+```bash
+npm start
+```
+5. Rodar Cypress:
+
+```bash
+npx cypress open
+```
+
+No gerenciador no Cypress terá disponível ao arquivos `\*.cy.ts`, localizado no diretório `./cypress/e2e/*`, nele esta configurado e documentado o uso do Cypress junto ao UAI Design System.
+
+## Contribuição
+
+Contribuições são bem-vindas! Se você tiver ideias, sugestões ou correções, sinta-se à vontade para abrir uma issue.
+
+## Licença
+
+Este projeto é licenciado sob a [Licença MIT](LICENSE). Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
