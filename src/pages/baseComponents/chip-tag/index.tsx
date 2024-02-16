@@ -13,11 +13,12 @@ const ChipTag = () => {
                 Chip Tag
               </BdsTypo>
               <BdsTypo variant="fs-16">
-                Os chips são usados para itens que precisam ser rotulados, categorizados ou organizados, usando palavras-chave que os descrevam.
+                Os chips são usados para itens que precisam ser rotulados, categorizados ou organizados, usando
+                palavras-chave que os descrevam.
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column" gap="2">
-              <BdsChipTag color="default" icon="">
+              <BdsChipTag id="9821-should" dataTest="open-chip-tag" color="default" icon="">
                 Chip-tag Default
               </BdsChipTag>
             </BdsGrid>

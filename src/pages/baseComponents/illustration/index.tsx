@@ -17,7 +17,13 @@ const Illustration = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsIllustration class="w-100" type="default" name="agent-1"></BdsIllustration>
+              <BdsIllustration
+                id="9137-should"
+                dataTest="open-illustration"
+                class="w-100"
+                type="default"
+                name="agent-1"
+              ></BdsIllustration>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

@@ -16,7 +16,7 @@ const Banner = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsBanner variant="system" button-close="true">
+              <BdsBanner id="1628-banner" dtButtonClose="should-button-close" variant="system" button-close="true">
                 Instabilidade na plataforma? Não se preocupe, já estamos resolvendo!
                 <BdsBannerLink>Acompanhe aqui</BdsBannerLink>
               </BdsBanner>

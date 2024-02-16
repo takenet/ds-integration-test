@@ -16,7 +16,16 @@ const Pagination = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsPagination started-page="20" pages={30}></BdsPagination>
+              <BdsPagination
+                id="9164-pagination"
+                dtButtonInitial="should-button-initial"
+                dtButtonPrev="should-button-prev"
+                dtSelectNumber="should-select-number"
+                dtButtonNext="should-button-next"
+                dtButtonEnd="should-button-end"
+                started-page="20"
+                pages={30}
+              ></BdsPagination>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

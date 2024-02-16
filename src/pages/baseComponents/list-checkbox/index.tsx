@@ -16,7 +16,7 @@ const ListChackbox = () => {
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
               <BdsList typeList="checkbox">
-                <BdsListItem value="01">
+                <BdsListItem value="01" id="4645-should" dataTest="open-list-checkbox">
                   <bds-list-item-content>
                     <bds-typo>Text of the item</bds-typo>
                   </bds-list-item-content>

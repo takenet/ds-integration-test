@@ -47,7 +47,7 @@ export const Stepper = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column" gap="2">
-              <BdsStepper ref={stepperElement}>
+              <BdsStepper id="8145-sidebar" ref={stepperElement}>
                 <BdsStep>Step one 1</BdsStep>
                 <BdsStep>Step two 2</BdsStep>
                 <BdsStep>Step three 3</BdsStep>

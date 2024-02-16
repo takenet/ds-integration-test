@@ -20,7 +20,15 @@ const Sidebar = () => {
               <BdsButton variant="primary" size="standard" onBdsClick={() => setOpenComponent(!openComponent)}>
                 Abrir Sidebar
               </BdsButton>
-              <BdsSidebar is-open={openComponent} sidebar-position="right" margin={true} type="over">
+              <BdsSidebar
+                id="8145-sidebar"
+                dtOutzone="should-outzone"
+                dtButtonClose="should-button-close"
+                is-open={openComponent}
+                sidebar-position="right"
+                margin={true}
+                type="over"
+              >
                 <div slot="header">
                   <BdsTypo>Insira o header aqui</BdsTypo>
                 </div>

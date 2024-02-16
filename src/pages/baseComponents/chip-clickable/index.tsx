@@ -13,11 +13,22 @@ const ChipClickable = () => {
                 Chip Clickable
               </BdsTypo>
               <BdsTypo variant="fs-16">
-                Os chips são usados para itens que precisam ser rotulados, categorizados ou organizados, usando palavras-chave que os descrevam.
+                Os chips são usados para itens que precisam ser rotulados, categorizados ou organizados, usando
+                palavras-chave que os descrevam.
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column" gap="2">
-              <BdsChipClickable color="default" icon="" avatar="" clickable={false} close={false} disabled={false} size="tall">
+              <BdsChipClickable
+                id="2178-should"
+                dataTest="should-chip-clickable"
+                color="default"
+                icon=""
+                avatar=""
+                clickable={false}
+                close={false}
+                disabled={false}
+                size="tall"
+              >
                 Chip-clickable Default
               </BdsChipClickable>
             </BdsGrid>

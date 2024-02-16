@@ -20,7 +20,14 @@ const Modal = () => {
               <BdsButton variant="primary" size="standard" onBdsClick={() => setOpenComponent(!openComponent)}>
                 Abrir Modal
               </BdsButton>
-              <BdsModal open={openComponent} outzone-close={true} close-button={true}>
+              <BdsModal
+                id="4852-modal"
+                dtOutzone="should-outzone"
+                dtButtonClose="should-button-close"
+                open={openComponent}
+                outzone-close={true}
+                close-button={true}
+              >
                 <BdsTypo variant="fs-14" bold="regular">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                   dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

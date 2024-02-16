@@ -18,7 +18,7 @@ const Select = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsSelect>
+              <BdsSelect id="9674-should" dataTest="open-select">
                 <BdsSelectOption value="1">Millie Bobby</BdsSelectOption>
                 <BdsSelectOption value="2">Finn Wolfhard</BdsSelectOption>
                 <BdsSelectOption value="3">David Harbour</BdsSelectOption>

@@ -17,7 +17,7 @@ const Radio = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsRadio value="radio1" label="Radio 1"></BdsRadio>
+              <BdsRadio id="4394-should" dataTest="open-radio" value="radio1" label="Radio 1"></BdsRadio>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

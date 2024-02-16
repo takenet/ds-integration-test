@@ -16,7 +16,7 @@ const Tabs = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsTabGroup>
+              <BdsTabGroup id="8563-tabs" dtButtonPrev="should-button-prev" dtButtonNext="should-button-next">
                 <BdsTabItem label="Basic settings">
                   <BdsTypo variant="fs-16">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ultricies consectetur quam ut feugiat.

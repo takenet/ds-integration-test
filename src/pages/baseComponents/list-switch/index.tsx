@@ -16,7 +16,7 @@ const ListSwitch = () => {
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
               <BdsList typeList="switch">
-                <BdsListItem value="01">
+                <BdsListItem value="01" id="2145-should" dataTest="open-list-switch">
                   <bds-list-item-content>
                     <bds-typo>Text of the item</bds-typo>
                   </bds-list-item-content>

@@ -17,7 +17,12 @@ const LoadingSpinner = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsLoadingSpinner size="standard" color="main"></BdsLoadingSpinner>
+              <BdsLoadingSpinner
+                id="3297-should"
+                dataTest="open-loading-spinner"
+                size="standard"
+                color="main"
+              ></BdsLoadingSpinner>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

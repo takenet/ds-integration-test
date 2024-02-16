@@ -17,7 +17,14 @@ const Paper = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsPaper border={false} elevation="primary" height="100px" width="150px"></BdsPaper>
+              <BdsPaper
+                id="6487-should"
+                dataTest="open-paper"
+                border={false}
+                elevation="primary"
+                height="100px"
+                width="150px"
+              ></BdsPaper>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

@@ -20,7 +20,7 @@ const RadioButton = () => {
               <BdsRadioGroup>
                 <BdsGrid direction="column" gap="1">
                   <BdsTypo bold="bold">Radio group</BdsTypo>
-                  <BdsRadio value="radio1" label="Radio 1"></BdsRadio>
+                  <BdsRadio id="6173-should" dataTest="open-radio-buttons" value="radio1" label="Radio 1"></BdsRadio>
                   <BdsRadio value="radio2" label="Radio 2"></BdsRadio>
                 </BdsGrid>
               </BdsRadioGroup>

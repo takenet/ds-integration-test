@@ -12,11 +12,18 @@ const Checkbox = () => {
                 Checkbox
               </BdsTypo>
               <BdsTypo variant="fs-16">
-                O checkbox permite que o usuário selecione um ou mais itens de um conjunto.  Podem ser usadas para ativar ou desativar uma opção.
+                O checkbox permite que o usuário selecione um ou mais itens de um conjunto. Podem ser usadas para ativar
+                ou desativar uma opção.
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column" gap="2">
-              <BdsCheckbox id="check1" label="Selected" name='select' refer='' checked></BdsCheckbox>
+              <BdsCheckbox
+                id="2378-should"
+                label="Selected"
+                name="select"
+                refer=""
+                dataTest="should-checkbox"
+              ></BdsCheckbox>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

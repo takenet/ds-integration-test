@@ -1,4 +1,4 @@
-describe('Sing In', () => {
+describe('Test component', () => {
   it('should click on the button to test the Alert component', () => {
     // Aviso para acessar a página do Alert
     cy.visit('http://localhost:3000/base-components/alert');

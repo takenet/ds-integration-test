@@ -16,9 +16,19 @@ const Autocomplete = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsAutocomplete label="label" icon="email" value="" disabled={false} placeholder="Select">
+              <BdsAutocomplete
+                id="9137-open"
+                label="label"
+                icon="email"
+                value=""
+                disabled={false}
+                placeholder="Select"
+                dataTest="open-autocomplete"
+              >
                 <BdsSelectOption value="1">Millie Bobby</BdsSelectOption>
-                <BdsSelectOption value="2">Finn Wolfhard</BdsSelectOption>
+                <BdsSelectOption id="3494-option" dataTest="should-option" value="2">
+                  Finn Wolfhard
+                </BdsSelectOption>
                 <BdsSelectOption value="3">David Harbour</BdsSelectOption>
                 <BdsSelectOption value="4">Gaten Matarazzo</BdsSelectOption>
                 <BdsSelectOption value="5">Caleb McLaughlin</BdsSelectOption>

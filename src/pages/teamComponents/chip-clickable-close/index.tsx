@@ -17,6 +17,8 @@ const ChipClickableClose = () => {
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
               <BdsChipClickable
+                id="4396-chip-close"
+                dtButtonClose="should-button-close"
                 color="default"
                 icon=""
                 avatar=""

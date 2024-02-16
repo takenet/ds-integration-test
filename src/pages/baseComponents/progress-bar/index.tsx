@@ -15,7 +15,13 @@ const ProgressBar = () => {
               <BdsTypo variant="fs-16">Um progress bar mostra a quantidade de um processo.</BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsProgressBar size="default" text="Texto para aplicar no componente" percent={16}></BdsProgressBar>
+              <BdsProgressBar
+                id="9437-should"
+                dataTest="open-progress-bar"
+                size="default"
+                text="Texto para aplicar no componente"
+                percent={16}
+              ></BdsProgressBar>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>
