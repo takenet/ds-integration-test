@@ -15,7 +15,7 @@ const Icon = () => {
               <BdsTypo variant="fs-16">Orientação e sugestões para usar ícones com o BlipDS.</BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsIcon theme="outline" size="brand" name="info"></BdsIcon>
+              <BdsIcon id="3278-should" dataTest="open-icon" theme="outline" size="brand" name="info"></BdsIcon>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

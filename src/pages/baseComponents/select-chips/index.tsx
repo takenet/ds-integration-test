@@ -31,6 +31,8 @@ const SelectChips = () => {
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
               <BdsSelectChips
+                id="7645-should"
+                dataTest="open-select-chips"
                 onBdsChangeChips={(ev) => handleSelectChips(ev)}
                 danger={dangerSelect}
                 errorMessage={errorMessageSelect}

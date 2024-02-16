@@ -18,7 +18,14 @@ const Switch = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsSwitch refer="" id="switch" name="cb1" disabled={false} checked={true}></BdsSwitch>
+              <BdsSwitch
+                refer=""
+                id="5258-should"
+                dataTest="open-switch"
+                name="cb1"
+                disabled={false}
+                checked={true}
+              ></BdsSwitch>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

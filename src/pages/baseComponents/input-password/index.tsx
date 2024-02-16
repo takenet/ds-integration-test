@@ -15,7 +15,12 @@ const InputPassword = () => {
               <BdsTypo variant="fs-16">Os inputs são usados para que os usuários insiram e editem textos.</BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsInputPassword placeholder="placeholder" label="label do input"></BdsInputPassword>
+              <BdsInputPassword
+                id="1964-should"
+                dataTest="open-input-password"
+                placeholder="placeholder"
+                label="label do input"
+              ></BdsInputPassword>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

@@ -16,7 +16,12 @@ const InputChips = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsInputChips id="input-chips" label="input chips" chips='["chip1", "chip2"]'></BdsInputChips>
+              <BdsInputChips
+                id="1628-input-chips"
+                dtButtonClose="should-button-close"
+                label="input chips"
+                chips='["chip1", "chip2"]'
+              ></BdsInputChips>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

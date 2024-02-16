@@ -17,7 +17,7 @@ const IconButton = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsButtonIcon icon="info"></BdsButtonIcon>
+              <BdsButtonIcon id="7945-should" dataTest="open-icon-button" icon="info"></BdsButtonIcon>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

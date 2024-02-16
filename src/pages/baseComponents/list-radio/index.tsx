@@ -16,7 +16,7 @@ const ListRadio = () => {
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
               <BdsList typeList="radio">
-                <BdsListItem value="01">
+                <BdsListItem value="01" id="3219-should" dataTest="open-list-radio">
                   <bds-list-item-content>
                     <bds-typo>Text of the item</bds-typo>
                   </bds-list-item-content>

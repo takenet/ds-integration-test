@@ -16,7 +16,21 @@ const Datepicker = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsDatepicker type-of-date="period" start-date-limit="31/12/2022" end-date-limit="01/01/2027" />
+              <BdsDatepicker
+                id="9663-datepicker"
+                dtInputStart="should-input-start"
+                dtInputEnd="should-input-end"
+                dtOutzone="should-outzone"
+                dtButtonPrev="should-button-prev"
+                dtButtonNext="should-button-next"
+                dtSelectMonth="should-select-month"
+                dtSelectYear="should-select-year"
+                dtButtonClear="should-button-clear"
+                dtButtonConfirm="should-button-confirm"
+                type-of-date="period"
+                start-date-limit="31/12/2022"
+                end-date-limit="01/01/2027"
+              />
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

@@ -16,7 +16,13 @@ const InputEditable = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsInputEditable value="Storybook"></BdsInputEditable>
+              <BdsInputEditable
+                id="7406-input-editable"
+                dtButtonEdit="should-button-edit"
+                dtButtonClose="should-button-close"
+                dtButtonConfirm="should-button-confirm"
+                value="Storybook"
+              ></BdsInputEditable>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

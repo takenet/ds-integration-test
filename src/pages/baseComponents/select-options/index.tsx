@@ -18,7 +18,9 @@ const SelectOptions = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsSelectOption value="1">Millie Bobby</BdsSelectOption>
+              <BdsSelectOption id="1319-should" dataTest="open-select-options" value="1">
+                Millie Bobby
+              </BdsSelectOption>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

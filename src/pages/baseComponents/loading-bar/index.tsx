@@ -15,7 +15,7 @@ const LoadingBar = () => {
               <BdsTypo variant="fs-16">Uma barra horizontal que indica o progresso da atividade realizada.</BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsLoadingBar size="default" percent={48}></BdsLoadingBar>
+              <BdsLoadingBar id="7837-should" dataTest="open-loading-bar" size="default" percent={48}></BdsLoadingBar>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

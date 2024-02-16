@@ -17,7 +17,12 @@ const Tooltip = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsTooltip id="tooltip" position="left-center" tooltip-text="Texto do tooltip">
+              <BdsTooltip
+                id="6598-should"
+                dataTest="open-tooltip"
+                position="left-center"
+                tooltip-text="Texto do tooltip"
+              >
                 <BdsIcon name="warning"></BdsIcon>
               </BdsTooltip>
             </BdsGrid>

@@ -12,11 +12,14 @@ const Button = () => {
                 Button
               </BdsTypo>
               <BdsTypo variant="fs-16">
-                O BlipDS inclui vários estilos de botões predefinidos, cada um servindo a seu próprio propósito semântico, com alguns extras adicionados para mais controle.
+                O BlipDS inclui vários estilos de botões predefinidos, cada um servindo a seu próprio propósito
+                semântico, com alguns extras adicionados para mais controle.
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column" gap="2">
-              <BdsButton variant="primary" icon="file-new" size="standard">Button</BdsButton>
+              <BdsButton id="2178-should" variant="primary" icon="file-new" size="standard" dataTest="should-button">
+                Button
+              </BdsButton>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

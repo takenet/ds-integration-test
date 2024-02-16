@@ -15,7 +15,12 @@ const Input = () => {
               <BdsTypo variant="fs-16">Os inputs são usados para que os usuários insiram e editem textos.</BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsInput placeholder="placeholder" label="label do input"></BdsInput>
+              <BdsInput
+                id="3721-should"
+                dataTest="open-input"
+                placeholder="placeholder"
+                label="label do input"
+              ></BdsInput>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

@@ -20,13 +20,18 @@ const Avatar = () => {
               <BdsTypo variant="fs-20" bold="bold">
                 Avatar
               </BdsTypo>
-              <BdsTypo variant="fs-16">
-                São imagens circulares para representar o usuário.
-              </BdsTypo>
+              <BdsTypo variant="fs-16">São imagens circulares para representar o usuário.</BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column" gap="2">
-              <BdsAvatar id="avatar" name="Michael Scott" thumbnail="" size="standard" upload={true}></BdsAvatar>
-              <BdsAvatarGroup id="avatar-group" can-click={true} size='standard' users={JSON.stringify(users)}></BdsAvatarGroup>
+              <BdsAvatar
+                id="4697-should"
+                dataTest="should-avatar"
+                name="Michael Scott"
+                thumbnail=""
+                size="standard"
+                upload={true}
+              ></BdsAvatar>
+              <BdsAvatarGroup can-click={true} size="standard" users={JSON.stringify(users)}></BdsAvatarGroup>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>
