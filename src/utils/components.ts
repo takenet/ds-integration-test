@@ -31,7 +31,6 @@ import SelectOptions from '../pages/baseComponents/select-options';
 import Banner from '../pages/teamComponents/banner';
 import ChipClickableClose from '../pages/teamComponents/chip-clickable-close';
 import Datepicker from '../pages/teamComponents/datepicker';
-import InputChip from '../pages/teamComponents/input-chips';
 import InputEditable from '../pages/teamComponents/input-editable';
 import InputPhoneNumber from '../pages/teamComponents/input-phone-number';
 import Modal from '../pages/teamComponents/modal';
@@ -84,7 +83,6 @@ export const components = [
         { name: 'Banner', href: '/team-components/banner', icon: 'file-java-script', component: Banner },
         { name: 'Chip Clickable', href: '/team-components/chipclickable', icon: 'file-java-script', component: ChipClickableClose },
         { name: 'Datepicker', href: '/team-components/datepicker', icon: 'file-java-script', component: Datepicker },
-        { name: 'Input Chip', href: '/team-components/inputchip', icon: 'file-java-script', component: InputChip },
         { name: 'Input Editable', href: '/team-components/input-editable', icon: 'file-java-script', component: InputEditable },
         { name: 'Input Phone Number', href: '/team-components/input-phone-number', icon: 'file-java-script', component: InputPhoneNumber },
         { name: 'Modal', href: '/team-components/modal', icon: 'file-java-script', component: Modal },

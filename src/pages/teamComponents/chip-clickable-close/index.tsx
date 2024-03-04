@@ -23,7 +23,7 @@ const ChipClickableClose = () => {
                 icon=""
                 avatar=""
                 clickable={true}
-                close={false}
+                close={true}
                 disabled={false}
                 size="tall"
               >

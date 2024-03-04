@@ -12,6 +12,8 @@ const Toast = () => {
     const toastTitle = 'Toast de teste';
     const toastText = 'Esse é um toast para testes, podendo ser modificado na tabela.';
     const buttonAction = 'close';
+    const dtButtonAction = 'should-button-action';
+    const dtButtonClose = 'should-button-close';
 
     await newtoast.create({
       variant,
@@ -20,6 +22,8 @@ const Toast = () => {
       buttonAction,
       toastText,
       icon,
+      dtButtonAction,
+      dtButtonClose,
     });
   };
   return (
@@ -36,7 +40,13 @@ const Toast = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsButton variant="primary" size="standard" onBdsClick={() => showToast()}>
+              <BdsButton
+                id="2178-should"
+                variant="primary"
+                size="standard"
+                onBdsClick={() => showToast()}
+                dataTest="should-button"
+              >
                 Abrir Toast
               </BdsButton>
             </BdsGrid>
