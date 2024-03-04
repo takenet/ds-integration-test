@@ -29,6 +29,54 @@ const Tabs = () => {
                     hac habitasse platea dictumst. Morbi non suscipit nisi.
                   </BdsTypo>
                 </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
+                <BdsTabItem label="Advanced settings">
+                  <BdsTypo variant="fs-16">
+                    Donec ut lacus sit amet tellus egestas placerat non sed lacus. Curabitur varius commodo sagittis. In
+                    hac habitasse platea dictumst. Morbi non suscipit nisi.
+                  </BdsTypo>
+                </BdsTabItem>
               </BdsTabGroup>
             </BdsGrid>
           </BdsGrid>
