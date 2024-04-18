@@ -12,8 +12,6 @@ const Toast = () => {
     const toastTitle = 'Toast de teste';
     const toastText = 'Esse é um toast para testes, podendo ser modificado na tabela.';
     const buttonAction = 'close';
-    const dtButtonAction = 'should-button-action';
-    const dtButtonClose = 'should-button-close';
 
     await newtoast.create({
       variant,
@@ -22,8 +20,6 @@ const Toast = () => {
       buttonAction,
       toastText,
       icon,
-      dtButtonAction,
-      dtButtonClose,
     });
   };
   return (
