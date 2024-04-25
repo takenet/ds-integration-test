@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BdsDropdown, BdsGrid, BdsPaper, BdsTypo } from 'blip-ds/dist/blip-ds-react/components';
+import { BdsGrid, BdsPaper, BdsTypo } from 'blip-ds/dist/blip-ds-react/components';
 
 const Typo = () => {
   return (
@@ -16,39 +16,39 @@ const Typo = () => {
                 O BlipDS inclui uma variedade de escalas e tipos de textos que atendem as necessidades do produto.
               </BdsTypo>
             </BdsGrid>
-            <BdsGrid xxs="12" margin="y-2" direction="column">
+            <BdsGrid xxs="6" margin="y-2" direction="column">
               <BdsTypo id="5137-should" dataTest="open-typo" variant="fs-16">
                 Texto para teste do typo.
               </BdsTypo>
-              <BdsDropdown position="bottom-center">
-                <div slot="dropdown-activator">
-                  <bds-button variant="primary">Open Menu</bds-button>
-                </div>
-                <div slot="dropdown-content">
-                  <bds-list type-list="default">
-                    <bds-list-item
-                      value="02"
-                      text="Text"
-                      secondary-text="Secondary text"
-                      clickable
-                      icon="blip-ideas"
-                    ></bds-list-item>
-                    <bds-list-item
-                      value="03"
-                      text="Text"
-                      secondary-text="Secondary text"
-                      clickable
-                      icon="blip-ideas"
-                    ></bds-list-item>
-                    <bds-list-item
-                      value="04"
-                      text="Text"
-                      secondary-text="Secondary text"
-                      avatar-name="Alvare Horta"
-                    ></bds-list-item>
-                  </bds-list>
-                </div>
-              </BdsDropdown>
+              <BdsGrid>
+                <ul>
+                  <li>
+                    <BdsTypo id="5137-should" dataTest="open-typo" variant="fs-16">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    </BdsTypo>
+                  </li>
+                  <li>
+                    <BdsTypo id="5137-should" dataTest="open-typo" variant="fs-16">
+                      Ut justo mauris, congue tempus consectetur a, tincidunt non erat.
+                    </BdsTypo>
+                  </li>
+                  <li>
+                    <BdsTypo id="5137-should" dataTest="open-typo" variant="fs-16">
+                      Suspendisse et vehicula urna. Maecenas mi lectus, pellentesque vitae tempor nec, volutpat eu sem.
+                    </BdsTypo>
+                  </li>
+                  <li>
+                    <BdsTypo id="5137-should" dataTest="open-typo" variant="fs-16">
+                      Nunc eu eros lectus. Cras et lorem in orci semper tincidunt vehicula malesuada est.
+                    </BdsTypo>
+                  </li>
+                  <li>
+                    <BdsTypo id="5137-should" dataTest="open-typo" variant="fs-16">
+                      In mattis luctus lectus, id hendrerit tortor elementum a.
+                    </BdsTypo>
+                  </li>
+                </ul>
+              </BdsGrid>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

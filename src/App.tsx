@@ -12,10 +12,12 @@ import {
 } from 'blip-ds/dist/blip-ds-react/components';
 import { AppRoutes, SidebarRoute } from './routes';
 
+const browserTheme = window.matchMedia('(prefers-color-scheme: dark)');
+
 const App = () => {
   const [openSidebar, setOpenSidebar] = useState(true);
   return (
-    <BdsThemeProvider theme="light" class="provider-global">
+    <BdsThemeProvider theme={browserTheme.matches ? 'dark' : 'light'} class="provider-global">
       <BdsNavbar orientation="vertical" justifyContent="flex-start" class="nav-global">
         <BdsNavbarContent>
           <BdsButtonIcon
@@ -42,7 +44,11 @@ const App = () => {
         <BdsNavbar class="header" orientation="horizontal" justifyContent="space-between" backgroundColor="surface-2">
           <BdsNavbarContent className="logo-area">
             <Link to="/">
-              <BdsIllustration class="logo" type="brand" name="blip-ballon-blue-black-horizontal"></BdsIllustration>
+              <BdsIllustration
+                class="logo"
+                type="brand"
+                name={browserTheme.matches ? 'blip-ballon-blue-white-horizontal' : 'blip-ballon-blue-black-horizontal'}
+              ></BdsIllustration>
             </Link>
           </BdsNavbarContent>
           <BdsNavbarContent>

@@ -16,7 +16,7 @@ const InputPhoneNumber = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsInputPhoneNumber label="label do input"></BdsInputPhoneNumber>
+              <BdsInputPhoneNumber id="5478-input-phone-number" label="label do input" dataTest="should-input-phone-number" dtSelectFlag="should-select-flag"></BdsInputPhoneNumber>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>
