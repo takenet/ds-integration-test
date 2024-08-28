@@ -10,7 +10,6 @@ const showNotification = (
 ) => {
   const setIllustrationContent = async (
     icon: illustrationType | string,
-    setAtribute?: (notification?: Notification) => Promise<void>
   ) => {
     if (typeof icon != 'string') {
       const tokensVersion = packageJson.dependencies['blip-tokens'].replace('^', '');
