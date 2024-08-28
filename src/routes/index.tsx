@@ -17,18 +17,10 @@ export const AppRoutes = () => {
       <Route path="/base-components" element={<BaseComponents />} />
 
       {baseComponents.map((item, index) => (
-        <Route
-          key={index}
-          path={item.href}
-          element={item.component()}
-        />
+        <Route key={index} path={item.href} element={item.component()} />
       ))}
       {teamComponents.map((item, index) => (
-        <Route
-          key={index}
-          path={item.href}
-          element={item.component()}
-        />
+        <Route key={index} path={item.href} element={item.component()} />
       ))}
 
       <Route path="/team-components" element={<TeamComponents />} />

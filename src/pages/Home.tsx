@@ -1,5 +1,5 @@
 import React from 'react';
-import { BdsIllustration, BdsTypo } from 'blip-ds/dist/blip-ds-react/components';
+import { BdsButton, BdsIllustration, BdsTypo } from 'blip-ds/dist/blip-ds-react/components';
 
 const Home = () => {
   return (
