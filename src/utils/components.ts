@@ -49,6 +49,7 @@ import Table from '../pages/teamComponents/table';
 import Tabs from '../pages/teamComponents/tabs';
 import Toast from '../pages/teamComponents/toast';
 import Upload from '../pages/teamComponents/upload';
+import Carousel from '../pages/teamComponents/carousel';
 
 export const components = [
   {
@@ -139,6 +140,7 @@ export const components = [
     path: '/team-components/*',
     pages: [
       { name: 'Banner', href: '/team-components/banner', icon: 'file-java-script', component: Banner },
+      { name: 'Carousel', href: '/team-components/carousel', icon: 'file-java-script', component: Carousel },
       {
         name: 'Chip Clickable',
         href: '/team-components/chipclickable',

@@ -11,6 +11,7 @@ import {
   BdsTooltip,
 } from 'blip-ds/dist/blip-ds-react/components';
 import { AppRoutes, SidebarRoute } from './routes';
+import DownTimeModal from './wrappers/DowntimeModal';
 
 const browserTheme = window.matchMedia('(prefers-color-scheme: dark)');
 
@@ -62,6 +63,7 @@ const App = () => {
           </bds-grid>
         </bds-grid>
       </bds-grid>
+      <DownTimeModal downtime={60} waintingTime={10}></DownTimeModal>
     </BdsThemeProvider>
   );
 };
