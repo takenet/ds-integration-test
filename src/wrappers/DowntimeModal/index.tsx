@@ -9,8 +9,8 @@ import {
   BdsTypo,
 } from 'blip-ds/dist/blip-ds-react/components';
 import { Props } from './DowntimeModal-interface';
-import showNotification from '../Notification';
-import { illustrationType } from '../Notification/Notification-interface';
+import showWebNotification from '../Notification';
+import { iconType } from '../Notification/Notification-interface';
 
 const DownTimeModal = (props: Props) => {
   const downtime = props.downtime ? props.downtime : 1200;
@@ -31,10 +31,10 @@ const DownTimeModal = (props: Props) => {
 
   useEffect(() => {
     if (secondsDowntime == downtime) {
-      showNotification(
+      showWebNotification(
         notificationData.title,
         notificationData.description,
-        notificationData.icon as illustrationType,
+        notificationData.icon as iconType,
         notificationData.uptime
       );
       setOpenWaintingTimeModal(true);
@@ -81,7 +81,12 @@ const DownTimeModal = (props: Props) => {
     });
   };
 
-  window.addEventListener('onPushNotification', (ev) => getNotification(ev as CustomEvent), false);
+  const formatSeconds = (s: number) => {
+    const timeFormat = new Date(s * 1000).toISOString().substring(14, 19);
+    return timeFormat;
+  };
+
+  window.addEventListener('pushWebNotification', (ev) => getNotification(ev as CustomEvent), false);
 
   window.onmousemove = () => {
     setSecondsDowntime(0);
@@ -114,7 +119,7 @@ const DownTimeModal = (props: Props) => {
             <BdsIllustration type="spots" name="empty" />
           </BdsGrid>
           <BdsGrid xxs="8" padding="l-4" direction="column" gap="2">
-            {secondsWaintingTime > 0 && <BdsChipTag>{waintingTime - secondsWaintingTime}</BdsChipTag>}
+            {secondsWaintingTime > 0 && <BdsChipTag>{formatSeconds(waintingTime - secondsWaintingTime)}</BdsChipTag>}
             <BdsTypo variant="fs-20" bold="bold" margin={false}>
               Você ainda está aí?
             </BdsTypo>
