@@ -1,19 +1,14 @@
-import { Callback } from 'webpack-cli';
-import packageJson from '../../../package.json';
-import { illustrationType } from './Notification-interface';
+import { iconType } from './Notification-interface';
 
-const showNotification = (
+const showWebNotification = (
   title: string = '',
   description?: string,
-  icon: illustrationType | string = '',
+  icon: iconType | string = '',
   uptime: number = 1
 ) => {
-  const setIllustrationContent = async (
-    icon: illustrationType | string,
-  ) => {
+  const setIllustrationContent = async (icon: iconType | string) => {
     if (typeof icon != 'string') {
-      const tokensVersion = packageJson.dependencies['blip-tokens'].replace('^', '');
-      const apiUrl = `https://cdn.jsdelivr.net/npm/blip-tokens@${tokensVersion}/build/json/illustrations/${icon.type}/${icon.name}.json`;
+      const apiUrl = `https://cdn.jsdelivr.net/npm/blip-tokens/build/json/illustrations/${icon.type}/${icon.name}.json`;
       let data = await fetch(apiUrl).then((response) =>
         response.json().then((data) => {
           return `data:image/svg+xml;base64,${data[`asset-${icon.type}-${icon.name}-svg`]}`;
@@ -35,7 +30,7 @@ const showNotification = (
     });
 
     // Here we will trigger an event to export the notification.
-    window.dispatchEvent(new CustomEvent('onPushNotification', { detail: notification }));
+    window.dispatchEvent(new CustomEvent('pushWebNotification', { detail: notification }));
 
     // Here you define the notification activity time.
     setTimeout(() => {
@@ -44,4 +39,4 @@ const showNotification = (
   };
 };
 
-export default showNotification;
+export default showWebNotification;

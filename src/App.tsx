@@ -63,7 +63,7 @@ const App = () => {
           </bds-grid>
         </bds-grid>
       </bds-grid>
-      <DownTimeModal downtime={60} waintingTime={10}></DownTimeModal>
+      <DownTimeModal downtime={20} waintingTime={10}></DownTimeModal>
     </BdsThemeProvider>
   );
 };
