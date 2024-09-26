@@ -18,7 +18,7 @@ const browserTheme = window.matchMedia('(prefers-color-scheme: dark)');
 const App = () => {
   const [openSidebar, setOpenSidebar] = useState(true);
   return (
-    <BdsThemeProvider theme={browserTheme.matches ? 'dark' : 'light'} class="provider-global">
+    <BdsThemeProvider theme="light" class="provider-global">
       <BdsNavbar orientation="vertical" justifyContent="flex-start" class="nav-global">
         <BdsNavbarContent>
           <BdsButtonIcon
@@ -63,7 +63,7 @@ const App = () => {
           </bds-grid>
         </bds-grid>
       </bds-grid>
-      <DownTimeModal downtime={20} waintingTime={10}></DownTimeModal>
+      {/* <DownTimeModal downtime={20} waintingTime={10}></DownTimeModal> */}
     </BdsThemeProvider>
   );
 };
