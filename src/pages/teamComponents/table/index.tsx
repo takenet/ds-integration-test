@@ -85,7 +85,7 @@ const Table = () => {
                   {DATA.map((row, index) => {
                     return (
                       <>
-                        <BdsTableRow>
+                        <BdsTableRow key={index}>
                           <BdsTableCell>
                             <BdsButtonIcon
                               size="short"

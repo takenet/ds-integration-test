@@ -2,6 +2,14 @@ import React from 'react';
 import { BdsGrid, BdsPaper, BdsTypo, BdsAutocomplete, BdsSelectOption } from 'blip-ds/dist/blip-ds-react/components';
 
 const Autocomplete = () => {
+  const DATA = [
+    { value: '1', label: 'Millie Bobby' },
+    { value: '2', label: 'Finn Wolfhard' },
+    { value: '3', label: 'David Harbour' },
+    { value: '4', label: 'Gaten Matarazzo' },
+    { value: '5', label: 'Caleb McLaughlin' },
+    { value: '6', label: 'Noah Schnapp' },
+  ];
   return (
     <>
       <BdsGrid margin="y-4" container>
@@ -20,20 +28,12 @@ const Autocomplete = () => {
                 id="9137-open"
                 label="label"
                 icon="email"
-                value=""
+                value="3"
                 disabled={false}
                 placeholder="Select"
                 dataTest="open-autocomplete"
-              >
-                <BdsSelectOption value="1">Millie Bobby</BdsSelectOption>
-                <BdsSelectOption id="3494-option" dataTest="should-option" value="2">
-                  Finn Wolfhard
-                </BdsSelectOption>
-                <BdsSelectOption value="3">David Harbour</BdsSelectOption>
-                <BdsSelectOption value="4">Gaten Matarazzo</BdsSelectOption>
-                <BdsSelectOption value="5">Caleb McLaughlin</BdsSelectOption>
-                <BdsSelectOption value="6">Noah Schnapp</BdsSelectOption>
-              </BdsAutocomplete>
+                options={DATA}
+              ></BdsAutocomplete>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

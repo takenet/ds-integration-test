@@ -25,8 +25,8 @@ const Modal = () => {
                 dtOutzone="should-outzone"
                 dtButtonClose="should-button-close"
                 open={openComponent}
-                outzone-close={true}
-                close-button={true}
+                outzone-close={false}
+                close-button={false}
               >
                 <BdsTypo variant="fs-14" bold="regular">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et

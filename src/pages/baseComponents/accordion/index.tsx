@@ -3,7 +3,6 @@ import {
   BdsAccordion,
   BdsAccordionBody,
   BdsAccordionHeader,
-  BdsGrid,
   BdsPaper,
   BdsTypo,
 } from 'blip-ds/dist/blip-ds-react/components';
@@ -11,10 +10,10 @@ import {
 const Accordion = () => {
   return (
     <>
-      <BdsGrid margin="y-4" container>
+      <bds-grid margin="y-4" container>
         <BdsPaper class="w-100">
-          <BdsGrid flex-wrap="wrap" margin="y-4" padding="x-3">
-            <BdsGrid xxs="12" margin="y-2" direction="column">
+          <bds-grid flex-wrap="wrap" margin="y-4" padding="x-3">
+            <bds-grid xxs="12" margin="y-2" direction="column">
               <BdsTypo variant="fs-20" bold="bold">
                 Accordion
               </BdsTypo>
@@ -22,8 +21,8 @@ const Accordion = () => {
                 Um accordion é uma lista de cabeçalhos empilhados verticalmente que revelam ou ocultam seções de
                 conteúdo associadas.
               </BdsTypo>
-            </BdsGrid>
-            <BdsGrid xxs="12" margin="y-2" direction="column">
+            </bds-grid>
+            <bds-grid xxs="12" margin="y-2" direction="column">
               <BdsAccordion>
                 <BdsAccordionHeader
                   id="5498-accordion-header"
@@ -40,10 +39,10 @@ const Accordion = () => {
                   </BdsTypo>
                 </BdsAccordionBody>
               </BdsAccordion>
-            </BdsGrid>
-          </BdsGrid>
+            </bds-grid>
+          </bds-grid>
         </BdsPaper>
-      </BdsGrid>
+      </bds-grid>
     </>
   );
 };
