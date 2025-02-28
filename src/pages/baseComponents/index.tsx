@@ -26,8 +26,9 @@ const BaseComponents = () => {
                     <BdsTypo variant="fs-16" bold="bold">
                       {item.name}
                     </BdsTypo>
+                    <BdsTypo variant="fs-12">{item.description}</BdsTypo>
                     <Link to={item.href}>
-                      <BdsButton variant="tertiary"> Abrir </BdsButton>
+                      <BdsButton> Abrir </BdsButton>
                     </Link>
                   </BdsGrid>
                 </BdsPaper>

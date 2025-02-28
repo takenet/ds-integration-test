@@ -15,7 +15,7 @@
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
     "babel-loader": "^8.2.5",
-    "blip-ds": "1.291.1",
+    "blip-ds": "1.302.0",
     "blip-tokens": "^1.82.0",
     "css-loader": "^6.7.1",
     "eslint": "^8.17.0",

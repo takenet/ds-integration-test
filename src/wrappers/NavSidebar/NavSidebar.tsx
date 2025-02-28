@@ -7,15 +7,13 @@ const NavSidebar = (props: Props) => {
   const navigation = props.navigation ? props.navigation : [];
   const location = useLocation();
   return (
-    <BdsSidebar class="sidebar" background="surface-2" isOpen={props.isOpen} margin type="fixed">
-      <div slot="header">
+    <BdsSidebar class="sidebar" width={280} background="surface-2" isOpen={props.isOpen} margin={false} type="fixed">
+      <div slot="body">
         <NavLink to="/">
           <bds-list>
             <BdsListItem clickable value="01" icon="arrow-left" text={props?.title}></BdsListItem>
           </bds-list>
         </NavLink>
-      </div>
-      <div slot="body">
         <bds-list>
           {navigation.length > 0 &&
             navigation.map((item, index) => (

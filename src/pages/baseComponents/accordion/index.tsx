@@ -2,6 +2,7 @@ import React from 'react';
 import {
   BdsAccordion,
   BdsAccordionBody,
+  BdsAccordionGroup,
   BdsAccordionHeader,
   BdsGrid,
   BdsPaper,
@@ -24,22 +25,40 @@ const Accordion = () => {
               </BdsTypo>
             </BdsGrid>
             <BdsGrid xxs="12" margin="y-2" direction="column">
-              <BdsAccordion>
-                <BdsAccordionHeader
-                  id="5498-accordion-header"
-                  accordionTitle="Título do accordion"
-                  avatarName=""
-                  avatarThumb=""
-                  icon=""
-                  dataTest="accordion-header"
-                />
-                <BdsAccordionBody id="3287-accordion-body" dataTest="accordion-body">
-                  <BdsTypo variant="fs-16">
-                    Um accordion é uma lista de cabeçalhos empilhados verticalmente que revelam ou ocultam seções de
-                    conteúdo associados.
-                  </BdsTypo>
-                </BdsAccordionBody>
-              </BdsAccordion>
+              <BdsAccordionGroup collapse="single">
+                <BdsAccordion startOpen>
+                  <BdsAccordionHeader
+                    id="5498-accordion-header"
+                    accordionTitle="Título do accordion"
+                    avatarName=""
+                    avatarThumb=""
+                    icon=""
+                    dataTest="accordion-header"
+                  />
+                  <BdsAccordionBody id="3287-accordion-body" dataTest="accordion-body">
+                    <BdsTypo variant="fs-16">
+                      Um accordion é uma lista de cabeçalhos empilhados verticalmente que revelam ou ocultam seções de
+                      conteúdo associados.
+                    </BdsTypo>
+                  </BdsAccordionBody>
+                </BdsAccordion>
+                <BdsAccordion>
+                  <BdsAccordionHeader
+                    id="5498-accordion-header"
+                    accordionTitle="Título do accordion"
+                    avatarName=""
+                    avatarThumb=""
+                    icon=""
+                    dataTest="accordion-header"
+                  />
+                  <BdsAccordionBody id="3287-accordion-body" dataTest="accordion-body">
+                    <BdsTypo variant="fs-16">
+                      Um accordion é uma lista de cabeçalhos empilhados verticalmente que revelam ou ocultam seções de
+                      conteúdo associados.
+                    </BdsTypo>
+                  </BdsAccordionBody>
+                </BdsAccordion>
+              </BdsAccordionGroup>
             </BdsGrid>
           </BdsGrid>
         </BdsPaper>

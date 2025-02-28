@@ -27,7 +27,7 @@ const TeamComponents = () => {
                       {item.name}
                     </BdsTypo>
                     <Link to={item.href}>
-                      <BdsButton variant="tertiary"> Abrir </BdsButton>
+                      <BdsButton> Abrir </BdsButton>
                     </Link>
                   </bds-grid>
                 </BdsPaper>

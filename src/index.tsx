@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
 import { defineCustomElements, JSX as LocalJSX } from 'blip-ds/loader';
-
 type StencilToReactElements<T = LocalJSX.IntrinsicElements> = {
   [P in keyof T]?: T[P] &
     Omit<DetailedHTMLProps<HTMLAttributes<T[P]>, T[P]>, 'className'> & {
@@ -25,7 +24,6 @@ declare global {
   }
 }
 defineCustomElements(window);
-
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(
   <React.StrictMode>
